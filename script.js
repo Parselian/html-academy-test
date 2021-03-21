@@ -122,8 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		return fetch(url, {
 			headers: {
 				'Content-Type': 'application/json'
-			},
-			mode: 'no-cors'
+			}
 		})
 	}
 
